@@ -1,0 +1,15 @@
+C:\Users\humeyra\source\repos\Bookstore\Bookstore.Entities\bin\Debug\net5.0\Bookstore.Entities.deps.json
+C:\Users\humeyra\source\repos\Bookstore\Bookstore.Entities\bin\Debug\net5.0\Bookstore.Entities.dll
+C:\Users\humeyra\source\repos\Bookstore\Bookstore.Entities\bin\Debug\net5.0\ref\Bookstore.Entities.dll
+C:\Users\humeyra\source\repos\Bookstore\Bookstore.Entities\bin\Debug\net5.0\Bookstore.Entities.pdb
+C:\Users\humeyra\source\repos\Bookstore\Bookstore.Entities\bin\Debug\net5.0\Bookstore.Core.dll
+C:\Users\humeyra\source\repos\Bookstore\Bookstore.Entities\bin\Debug\net5.0\Bookstore.Core.pdb
+C:\Users\humeyra\source\repos\Bookstore\Bookstore.Entities\obj\Debug\net5.0\Bookstore.Entities.csprojAssemblyReference.cache
+C:\Users\humeyra\source\repos\Bookstore\Bookstore.Entities\obj\Debug\net5.0\Bookstore.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\humeyra\source\repos\Bookstore\Bookstore.Entities\obj\Debug\net5.0\Bookstore.Entities.AssemblyInfoInputs.cache
+C:\Users\humeyra\source\repos\Bookstore\Bookstore.Entities\obj\Debug\net5.0\Bookstore.Entities.AssemblyInfo.cs
+C:\Users\humeyra\source\repos\Bookstore\Bookstore.Entities\obj\Debug\net5.0\Bookstore.Entities.csproj.CoreCompileInputs.cache
+C:\Users\humeyra\source\repos\Bookstore\Bookstore.Entities\obj\Debug\net5.0\Bookstore.Entities.csproj.CopyComplete
+C:\Users\humeyra\source\repos\Bookstore\Bookstore.Entities\obj\Debug\net5.0\Bookstore.Entities.dll
+C:\Users\humeyra\source\repos\Bookstore\Bookstore.Entities\obj\Debug\net5.0\ref\Bookstore.Entities.dll
+C:\Users\humeyra\source\repos\Bookstore\Bookstore.Entities\obj\Debug\net5.0\Bookstore.Entities.pdb
