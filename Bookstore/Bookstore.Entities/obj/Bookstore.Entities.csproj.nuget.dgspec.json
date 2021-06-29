@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\humeyra\\source\\repos\\Bookstore\\Bookstore.Entities\\Bookstore.Entities.csproj": {}
+    "C:\\Users\\humeyra\\Documents\\GitHub\\BookstoreProject\\Bookstore\\Bookstore.Entities\\Bookstore.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\humeyra\\source\\repos\\Bookstore\\Bookstore.Core\\Bookstore.Core.csproj": {
+    "C:\\Users\\humeyra\\Documents\\GitHub\\BookstoreProject\\Bookstore\\Bookstore.Core\\Bookstore.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\humeyra\\source\\repos\\Bookstore\\Bookstore.Core\\Bookstore.Core.csproj",
+        "projectUniqueName": "C:\\Users\\humeyra\\Documents\\GitHub\\BookstoreProject\\Bookstore\\Bookstore.Core\\Bookstore.Core.csproj",
         "projectName": "Bookstore.Core",
-        "projectPath": "C:\\Users\\humeyra\\source\\repos\\Bookstore\\Bookstore.Core\\Bookstore.Core.csproj",
+        "projectPath": "C:\\Users\\humeyra\\Documents\\GitHub\\BookstoreProject\\Bookstore\\Bookstore.Core\\Bookstore.Core.csproj",
         "packagesPath": "C:\\Users\\humeyra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\humeyra\\source\\repos\\Bookstore\\Bookstore.Core\\obj\\",
+        "outputPath": "C:\\Users\\humeyra\\Documents\\GitHub\\BookstoreProject\\Bookstore\\Bookstore.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\humeyra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,9 +56,33 @@
               "target": "Package",
               "version": "[10.2.3, )"
             },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.7, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.11.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.11.1, )"
             }
           },
           "imports": [
@@ -80,14 +104,14 @@
         }
       }
     },
-    "C:\\Users\\humeyra\\source\\repos\\Bookstore\\Bookstore.Entities\\Bookstore.Entities.csproj": {
+    "C:\\Users\\humeyra\\Documents\\GitHub\\BookstoreProject\\Bookstore\\Bookstore.Entities\\Bookstore.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\humeyra\\source\\repos\\Bookstore\\Bookstore.Entities\\Bookstore.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\humeyra\\Documents\\GitHub\\BookstoreProject\\Bookstore\\Bookstore.Entities\\Bookstore.Entities.csproj",
         "projectName": "Bookstore.Entities",
-        "projectPath": "C:\\Users\\humeyra\\source\\repos\\Bookstore\\Bookstore.Entities\\Bookstore.Entities.csproj",
+        "projectPath": "C:\\Users\\humeyra\\Documents\\GitHub\\BookstoreProject\\Bookstore\\Bookstore.Entities\\Bookstore.Entities.csproj",
         "packagesPath": "C:\\Users\\humeyra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\humeyra\\source\\repos\\Bookstore\\Bookstore.Entities\\obj\\",
+        "outputPath": "C:\\Users\\humeyra\\Documents\\GitHub\\BookstoreProject\\Bookstore\\Bookstore.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\humeyra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -104,8 +128,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\humeyra\\source\\repos\\Bookstore\\Bookstore.Core\\Bookstore.Core.csproj": {
-                "projectPath": "C:\\Users\\humeyra\\source\\repos\\Bookstore\\Bookstore.Core\\Bookstore.Core.csproj"
+              "C:\\Users\\humeyra\\Documents\\GitHub\\BookstoreProject\\Bookstore\\Bookstore.Core\\Bookstore.Core.csproj": {
+                "projectPath": "C:\\Users\\humeyra\\Documents\\GitHub\\BookstoreProject\\Bookstore\\Bookstore.Core\\Bookstore.Core.csproj"
               }
             }
           }

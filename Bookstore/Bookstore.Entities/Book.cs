@@ -18,7 +18,7 @@ namespace Bookstore.Entities
         public decimal UnitPrice { get; set; }
         public short UnitsInStock { get; set; }
         public string Description { get; set; }
-        public string Publisher { get; set; }
+        public int PublisherId { get; set; }
         public string Cover { get; set; }
         
     }

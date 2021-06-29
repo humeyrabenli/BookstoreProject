@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Bookstore.Entities;
+using Bookstore.Core.Entities.Concrete;
 
 namespace Bookstore.DataAccess.Concrete.EntityFramework
 {
@@ -22,7 +23,10 @@ namespace Bookstore.DataAccess.Concrete.EntityFramework
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Author> Authors { get; set; }
         public DbSet<Order> Orders { get; set; }
-       
+        public DbSet<OperationClaim> OperationClaims { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<UserOperationClaim> UserOperationClaims { get; set; }
+
 
 
 

@@ -16,7 +16,7 @@ namespace Bookstore.Business.ValidationRules.FluentValidation
             RuleFor(b => b.UnitPrice).NotEmpty();
             RuleFor(b => b.NumberOfPage).NotEmpty();
             RuleFor(b => b.PublicationDate).NotEmpty();
-            RuleFor(b => b.UnitPrice).GreaterThan(0);
+            RuleFor(b => b.UnitPrice).GreaterThan(5);
         }
 
     }

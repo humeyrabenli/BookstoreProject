@@ -3,6 +3,7 @@ using Autofac.Extras.DynamicProxy;
 using Bookstore.Business.Abstract;
 using Bookstore.Business.Concrete;
 using Bookstore.Core.Utilities.Interceptors;
+using Bookstore.Core.Utilities.Security.JWT;
 using Bookstore.DataAccess.Abstract;
 using Bookstore.DataAccess.Concrete.EntityFramework;
 using Castle.DynamicProxy;
@@ -21,6 +22,12 @@ namespace Bookstore.Business.DependencyResolvers.Autofac
             builder.RegisterType<BookManager>().As<IBookService>().SingleInstance();
             builder.RegisterType<EfBookDal>().As<IBookDal>().SingleInstance();
 
+            builder.RegisterType<UserManager>().As<IUserService>();
+            builder.RegisterType<EfUserDal>().As<IUserDal>();
+
+            builder.RegisterType<AuthManager>().As<IAuthService>();
+            builder.RegisterType<JwtHelper>().As<ITokenHelper>();
+
 
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
@@ -28,7 +35,7 @@ namespace Bookstore.Business.DependencyResolvers.Autofac
             builder.RegisterAssemblyTypes(assembly).AsImplementedInterfaces()
                 .EnableInterfaceInterceptors(new ProxyGenerationOptions()
                 {
-                    Selector=new AspectInterceptorSelector()
+                    Selector = new AspectInterceptorSelector()
                 }).SingleInstance();
         }
     }

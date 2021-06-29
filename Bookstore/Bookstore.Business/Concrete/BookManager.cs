@@ -1,4 +1,5 @@
 ﻿using Bookstore.Business.Abstract;
+using Bookstore.Business.BusinessAspects.Autofac;
 using Bookstore.Business.Constants;
 using Bookstore.Business.ValidationRules.FluentValidation;
 using Bookstore.Core.Aspects.Autofac.Validation;
@@ -25,6 +26,8 @@ namespace Bookstore.Business.Concrete
             _bookDal = bookDal;
         }
 
+
+        [SecuredOperation("book.add,admin")]
         [ValidationAspect(typeof(BookValidator))]
         public IResult Add(Book book)
         {
